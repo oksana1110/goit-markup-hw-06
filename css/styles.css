@@ -876,15 +876,13 @@ position: absolute;
 }
 .modal-politic{
     font-size: 14px;
-    font-style: 400;
+    font-weight: 400;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
-.modal-politic::before {
+.modal-politic-label::before {
    content: '';
    width: 16px;
    height: 16px;
@@ -892,9 +890,15 @@ position: absolute;
    border-radius: 2px;
    margin-right: 20px;
 }
-/*.modal-politic:checked + label::before{
+label.modal-politic-label{
+    display: flex;
+    align-items: center;
+    
+}
+.modal-politic-check:checked + label::before{
    border: none;
    background-repeat: no-repeat;
    background-image: url('../images/Vector.svg');
+   background-position: center;
    background-color: var(--active-color);
-}*/
+}
