@@ -882,7 +882,8 @@ padding-bottom: 200px;
     letter-spacing: 0.03em;
     
 }
-
+.modal-politic-check{
+    margin-top: 4px;}
 .modal-politic-label::before {
    content: '';
    width: 16px;
